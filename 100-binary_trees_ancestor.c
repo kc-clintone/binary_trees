@@ -34,22 +34,3 @@ second = second->parent;
 }
 return ((binary_tree_t *)first);
 }
-/**
- * binary_tree_depth - This function measures the depth of a node
- * in a binary tree
- * @tree: Target node
- * Return: depth
-*/
-size_t binary_tree_depth(const binary_tree_t *tree)
-{
-size_t x = 0;
-
-if (!tree)
-return (0);
-while (tree->parent)
-{
-x++;
-tree = tree->parent;
-}
-return (x);
-}
