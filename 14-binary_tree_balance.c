@@ -33,8 +33,8 @@ int x = 0, y = 0, z = 0;
 
 if (tree)
 {
-y = ((int)binary_tree_height_b(tree->y));
-x = ((int)binary_tree_height_b(tree->x));
+y = ((int)binary_tree_height_b(tree->left));
+x = ((int)binary_tree_height_b(tree->right));
 z = y - x;
 }
 return (z);
