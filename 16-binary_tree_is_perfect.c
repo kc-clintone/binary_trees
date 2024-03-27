@@ -58,5 +58,5 @@ return (-1);
 if (p == 0)
 return (1);
 else
-return (n * pwr_p(n, p - 1));
+return (n *pwr_p(n, p - 1));
 }
