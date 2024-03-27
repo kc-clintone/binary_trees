@@ -12,7 +12,8 @@ const binary_tree_t *second)
 size_t df, ds;
 
 if (!first || !second)
-return (NULL);
+return NULL;
+
 df = binary_tree_depth(first);
 ds = binary_tree_depth(second);
 while (df > ds)
@@ -20,7 +21,7 @@ while (df > ds)
 first = first->parent;
 df--;
 }
-while (ds > depth_first)
+while (ds > df)
 {
 second = second->parent;
 ds--;
@@ -28,9 +29,10 @@ ds--;
 while (first && second)
 {
 if (first == second)
-return ((binary_tree_t *)first);
+{
+return (binary_tree_t *)first;
 first = first->parent;
 second = second->parent;
 }
-return ((binary_tree_t *)first);
+return NULL;
 }
