@@ -4,7 +4,7 @@
  * ancestor of two nodes
  * @first: Pointer to the first node to find the ancestor
  * @second: Pointer to the second node to find the ancestor
- * Return: pointer to ancestor
+ * Return: Pointer to the ancestor node
 */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 const binary_tree_t *second)
@@ -12,7 +12,7 @@ const binary_tree_t *second)
 size_t df, ds;
 
 if (!first || !second)
-return NULL;
+return (NULL);
 df = binary_tree_depth(first);
 ds = binary_tree_depth(second);
 while (df > ds)
@@ -20,7 +20,7 @@ while (df > ds)
 first = first->parent;
 df--;
 }
-while (ds > df)
+while (ds > depth_first)
 {
 second = second->parent;
 ds--;
