@@ -58,6 +58,5 @@ size_t bt_height(const binary_tree_t *tree);
 /*------advanced---------*/
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
-static int print_tree(const binary_tree_t *tree, int offset, int depth,
-char **chr);
+
 #endif /*BINARY_TREES_H*/
