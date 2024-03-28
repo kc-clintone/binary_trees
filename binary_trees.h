@@ -31,6 +31,7 @@ int pwr_r(int n, int p);
 typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
+void binary_tree_print(const binary_tree_t *);
 
 /*------prototypes-------*/
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
@@ -57,5 +58,6 @@ size_t bt_height(const binary_tree_t *tree);
 /*------advanced---------*/
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
-
+static int print_tree(const binary_tree_t *tree, int offset, int depth,
+char **chr);
 #endif /*BINARY_TREES_H*/
