@@ -28,7 +28,7 @@ if (level == 1)
 func(tree->n);
 else
 {
-fn_1(tree->left, func, level - 1
+fn_1(tree->left, func, level - 1)
 fn_1(tree->right, func, level - 1);
 }
 }
