@@ -61,6 +61,7 @@ int binary_tree_is_complete(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 int binary_tree_is_bst(const binary_tree_t *tree);
+bst_t *bst_insert(bst_t **tree, int value);
 void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
 int fn_2(const binary_tree_t *tree, size_t x, size_t s);
 int fn_3(const binary_tree_t *tree, int x, int y);
