@@ -39,7 +39,7 @@ if (node == NULL)
 return (0);
 else
 {
-x = next_of_kin(node->x);
+x = next_of_kin(node->left);
 if (x == 0)
 return (node->n);
 return (x);
