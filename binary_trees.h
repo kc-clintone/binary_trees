@@ -56,6 +56,7 @@ void binary_tree_delete(binary_tree_t *tree);
 
 /*------advanced---------*/
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
 
 #endif /*BINARY_TREES_H*/
