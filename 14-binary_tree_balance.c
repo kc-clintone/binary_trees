@@ -9,7 +9,8 @@ size_t bt_height(const binary_tree_t *tree)
 {
 size_t i = 0, j = 0;
 
-if (tree == NULL;
+if (tree == NULL)y
+
 return (0);
 else
 {
