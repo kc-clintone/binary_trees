@@ -25,10 +25,10 @@ fn_1(tree, func, l);
 void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level)
 {
 if (level == 1)
-fn(tree->n);
+func(tree->n);
 else
 {
-fn_1(tree->left, fn, level - 1
-fn_1(tree->right, fn, level - 1);
+fn_1(tree->left, func, level - 1
+fn_1(tree->right, func, level - 1);
 }
 }
