@@ -28,8 +28,8 @@ binary_tree_size(tree->right) + 1);
 /**
  * fn_2 - Thid function checks if a binary tree is complete
  * @tree: A pointer to target tree
- * @index: Target node
- * @size: Nodes
+ * @x: Target node
+ * @s: Nodes
  * Return: 1, 0 or NULL
 */
 int fn_2(const binary_tree_t *tree, size_t x, size_t s)
