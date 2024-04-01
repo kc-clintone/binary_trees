@@ -11,7 +11,7 @@ bst_t *array_to_bst(int *array, size_t size)
 unsigned int x;
 bst_t *target = NULL;
 
-for (x = 0; ilx < size; x++)
-bst_insert(&target, array[i]);
+for (x = 0; x < size; x++)
+bst_insert(&target, array[x]);
 return (target);
 }
