@@ -68,6 +68,7 @@ bst_t *bst_insert(bst_t **tree, int value);
 bst_t *bst_search(const bst_t *tree, int value);
 bst_t *array_to_bst(int *array, size_t size);
 int getter_fn(bst_t *root);
+avl_t *array_to_avl(int *array, size_t size);
 int clean_up(bst_t *node);
 int next_of_kin(bst_t *node);
 size_t binary_tree_height(const binary_tree_t *t);
