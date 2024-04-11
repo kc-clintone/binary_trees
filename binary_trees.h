@@ -68,8 +68,11 @@ bst_t *array_to_bst(int *array, size_t size);
 int getter_fn(bst_t *root);
 int clean_up(bst_t *node);
 int next_of_kin(bst_t *node);
+size_t binary_tree_height(const binary_tree_t *t);
+int binary_tree_is_avl(const binary_tree_t *tree);
 bst_t *bst_remove(bst_t *root, int value);
 void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
 int fn_2(const binary_tree_t *tree, size_t x, size_t s);
 int fn_3(const binary_tree_t *tree, int x, int y);
+int fn_4(const binary_tree_t *t, int x, int y);
 #endif /*BINARY_TREES_H*/
