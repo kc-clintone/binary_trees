@@ -15,7 +15,7 @@ return (NULL);
 if (!(*root))
 return (*root = binary_tree_node(NULL, value));
 tr = *root;
-x = binary_tree_size(tr);
+x = bts(tr);
 lv = x;
 for (k = 0, i = 1; lv >= i; i *= 2, k++)
 lv -= i;
