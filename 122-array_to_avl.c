@@ -7,7 +7,8 @@
 */
 avl_t *array_to_avl(int *array, size_t size)
 {
-unsigned int x; avl_t *y = NULL;
+unsigned int x;
+avl_t *y = NULL;
 
 for (x = 0; x < size; x++)
 avl_insert(&y, array[x]);
