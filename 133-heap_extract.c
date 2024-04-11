@@ -82,24 +82,6 @@ x = y;
 }
 }
 /**
- * tsh - This just measures the sum of heights of a binary tree
- * @tr: Pointer to target
- * Return: Height or 0
-
-size_t tsh(const binary_tree_t *tr)
-{
-size_t hl = 0, hr = 0;
-
-if (!tr)
-return (0);
-if (tr->left)
-hl = 1 + tsh(tr->left);
-if (tr->right)
-hr = 1 + tsh(tr->right);
-return (hl + hr);
-}
-*/
-/**
  * th - This just measures the height of a binary tree
  * @tree: Pointer to target tree
  * Return: Height or 0
