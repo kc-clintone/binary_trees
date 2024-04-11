@@ -84,6 +84,6 @@ void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
 int fn_2(const binary_tree_t *tree, size_t x, size_t s);
 int fn_3(const binary_tree_t *tree, int x, int y);
 int fn_4(const binary_tree_t *t, int x, int y);
-avl_t *sorted_array_to_avl(int *array, size_t size);
+void fn_5(avl_t **r, int *arr, size_t x, size_t y);
 
 #endif /*BINARY_TREES_H*/
