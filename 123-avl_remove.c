@@ -27,7 +27,7 @@ if (nd == NULL)
 return (0);
 else
 {
-x = fx(nd->x);
+x = fx(nd->left);
 if (x == 0)
 {
 return (nd->n);
