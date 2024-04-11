@@ -65,6 +65,6 @@ if (*tree == NULL)
 *tree = binary_tree_node(NULL, value);
 return (*tree);
 }
-r_insert_node(tree, *tree, &new, value);
+inode(tree, *tree, &new, value);
 return (new);
 }
