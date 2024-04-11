@@ -81,6 +81,9 @@ heap_t *heap_insert(heap_t **root, int value);
 int next_of_kin(bst_t *node);
 size_t binary_tree_height(const binary_tree_t *t);
 int binary_tree_is_avl(const binary_tree_t *tree);
+int heap_extract(heap_t **root);
+size_t th(const heap_t *tr);
+void mkhp(heap_t *rt);
 int btc(const binary_tree_t *tr);
 size_t bts(const binary_tree_t *tr);
 int binary_tree_is_heap(const binary_tree_t *tree);
@@ -92,5 +95,5 @@ int fn_4(const binary_tree_t *t, int x, int y);
 void fn_5(avl_t **r, int *arr, size_t x, size_t y);
 int fn_6(const binary_tree_t *tr);
 int fn_7(const binary_tree_t *tr, size_t i, size_t x);
-
+void fn_8(heap_t *tr, heap_t **nd, size_t ht);
 #endif /*BINARY_TREES_H*/
