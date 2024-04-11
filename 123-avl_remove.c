@@ -16,7 +16,7 @@ return (x);
 }
 /**
  * fx - This function gets the next successor
- * @node: Target tree
+ * @nd: Target tree
  * Return: Minimum value of target tree
 */
 int fx(bst_t *nd)
@@ -37,7 +37,7 @@ return (x);
 }
 /**
  *rmt - This fn removes a node depending of its children
- *@root: Target node
+ *@r: Target node
  *Return: 0
 */
 int rmt(bst_t *r)
@@ -84,7 +84,7 @@ return (nv);
 /**
  * balancer - This function measures the balance
  * factor for an AVL tree.
- * @tree: Target tree
+ * @t: Target tree
  * Return: Factor
 */
 void balancer(avl_t **t)
