@@ -73,6 +73,7 @@ int clean_up(bst_t *node);
 bst_t *brm(bst_t *root, int value);
 void balancer(avl_t **t);
 int rmt(bst_t *r);
+avl_t *sorted_array_to_avl(int *array, size_t size);
 int fx(bst_t *n);
 avl_t *avl_remove(avl_t *root, int value);
 int next_of_kin(bst_t *node);
@@ -83,4 +84,6 @@ void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
 int fn_2(const binary_tree_t *tree, size_t x, size_t s);
 int fn_3(const binary_tree_t *tree, int x, int y);
 int fn_4(const binary_tree_t *t, int x, int y);
+avl_t *sorted_array_to_avl(int *array, size_t size);
+
 #endif /*BINARY_TREES_H*/
