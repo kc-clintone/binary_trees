@@ -76,6 +76,7 @@ int rmt(bst_t *r);
 avl_t *sorted_array_to_avl(int *array, size_t size);
 int fx(bst_t *n);
 avl_t *avl_remove(avl_t *root, int value);
+heap_t *heap_insert(heap_t **root, int value);
 int next_of_kin(bst_t *node);
 size_t binary_tree_height(const binary_tree_t *t);
 int binary_tree_is_avl(const binary_tree_t *tree);
