@@ -79,11 +79,16 @@ avl_t *avl_remove(avl_t *root, int value);
 int next_of_kin(bst_t *node);
 size_t binary_tree_height(const binary_tree_t *t);
 int binary_tree_is_avl(const binary_tree_t *tree);
+int btc(const binary_tree_t *tr);
+size_t bts(const binary_tree_t *tr);
+int binary_tree_is_heap(const binary_tree_t *tree);
 bst_t *bst_remove(bst_t *root, int value);
 void fn_1(const binary_tree_t *tree, void (*func)(int), size_t level);
 int fn_2(const binary_tree_t *tree, size_t x, size_t s);
 int fn_3(const binary_tree_t *tree, int x, int y);
 int fn_4(const binary_tree_t *t, int x, int y);
 void fn_5(avl_t **r, int *arr, size_t x, size_t y);
+int fn_6(const binary_tree_t *tr);
+int fn_7(const binary_tree_t *tr, size_t i, size_t x);
 
 #endif /*BINARY_TREES_H*/
