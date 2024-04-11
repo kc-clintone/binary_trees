@@ -19,7 +19,7 @@ return (x);
  * @node: Target tree
  * Return: Minimum value of target tree
 */
-int fx(bst_t *n)
+int fx(bst_t *nd)
 {
 int x = 0;
 
