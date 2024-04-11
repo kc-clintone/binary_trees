@@ -30,7 +30,7 @@ i = t->left ? 1 + binary_tree_height(t->left) : 0;
 j = t->right ? 1 + binary_tree_height(t->right) : 0;
 if (abs(i - j) > 1)
 return (0);
-return (fn_4(t->left, x, t->n - 1) && (t->right, t->n + 1, y));
+return (fn_4(t->left, x, t->n - 1) && fn_4(t->right, t->n + 1, y));
 }
 /**
  * binary_tree_height - This function measures the height of a
