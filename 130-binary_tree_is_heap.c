@@ -69,6 +69,6 @@ size_t x;
 
 if (!tr)
 return (0);
-x = binary_tree_size(tr);
+x = bts(tr);
 return (fn_7(tr, 0, x));
 }
